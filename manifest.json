@@ -1,6 +1,6 @@
 {
   "name": "Messenger Mention All",
-  "version": "1.0",
+  "version": "1.0.0",
   "description": "Mention all participants in any group chat!",
   "manifest_version": 2,
   "background": {
@@ -19,7 +19,6 @@
     }
   ],
   "permissions": [
-    "storage",
     "cookies",
     "webRequest",
     "webRequestBlocking",

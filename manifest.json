@@ -1,0 +1,39 @@
+{
+  "name": "Messenger Mention All",
+  "version": "1.0",
+  "description": "Mention all participants in any group chat!",
+  "manifest_version": 2,
+  "background": {
+    "scripts": [
+      "./js/background.js"
+    ],
+    "persistent": true
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.messenger.com/*",
+        "https://www.facebook.com/messages/*"
+      ],
+      "js": ["./js/content.js"]
+    }
+  ],
+  "permissions": [
+    "storage",
+    "cookies",
+    "webRequest",
+    "webRequestBlocking",
+    "contextMenus",
+
+    "https://*.facebook.com/*",
+    "https://*.messenger.com/*"
+  ],
+  "browser_action": {
+    "default_title": "Messenger Mention All",
+    "default_popup": "popup/popup.html"
+  },
+  "icons": {
+    "128": "icons/128.png"
+  },
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}

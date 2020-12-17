@@ -1,7 +1,7 @@
 {
-  "name": "Messenger Mention All",
+  "name": "Mention All For Messenger",
   "version": "1.0.0",
-  "description": "Mention all participants in any group chat!",
+  "description": "Mention all participants in any Messenger group chat with just one click!",
   "manifest_version": 2,
   "background": {
     "scripts": [
@@ -28,7 +28,7 @@
     "https://*.messenger.com/*"
   ],
   "browser_action": {
-    "default_title": "Messenger Mention All",
+    "default_title": "Mention All For Messenger",
     "default_popup": "popup/popup.html"
   },
   "icons": {

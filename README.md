@@ -7,7 +7,7 @@ Mention all participants in any group chat with one click.
 
 #### From Web Store
 
-_Will be updated soon_
+You can download this extension from Chrome Web Store: https://chrome.google.com/webstore/detail/mention-all-for-messenger/ekmkcdgkndmegpkinmacekkpjjhadcdp
 
 #### From Source
 
